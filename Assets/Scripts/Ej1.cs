@@ -26,12 +26,25 @@ public class Ej1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        string tic = T;
+        string diseño = D;
+        string gestion = G;
+        string medios = M;
+        string humanidades = H;
+        string orientaciones = tic, diseño, gest ; 
+
+        orientacion = T ;
         if ((nombrealumno.Length ==0 ))
             Debug.Log("Error, no ingresaste tu nombre");
 
         else if (año > 5 && año < 1)
-            Debug.Log("Error, el año que ingresaste no es valido");        
+            Debug.Log("Error, el año que ingresaste no es valido");
+
+        if (orientacion != tic && orientacion != diseño && orientacion != gestion && orientacion)
+            
+
+            if ()
+                Debug.Log("Muchas gracias " + nombrealumno);
     }
 
     // Update is called once per frame
