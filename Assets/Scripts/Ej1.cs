@@ -20,10 +20,18 @@ using UnityEngine;
 
 public class Ej1 : MonoBehaviour
 {
+    public string nombrealumno;
+    public int año;
+    public string orientacion;
     // Start is called before the first frame update
     void Start()
     {
         
+        if ((nombrealumno.Length ==0 ))
+            Debug.Log("Error, no ingresaste tu nombre");
+
+        else if (año > 5 && año < 1)
+            Debug.Log("Error, el año que ingresaste no es valido");        
     }
 
     // Update is called once per frame
