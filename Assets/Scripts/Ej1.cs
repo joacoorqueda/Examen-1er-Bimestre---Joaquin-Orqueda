@@ -26,11 +26,11 @@ public class Ej1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string tic = T;
-        string diseño = D;
-        string gestion = G;
-        string medios = M;
-        string humanidades = H;
+        string tic = T ;
+        string diseño = D ;
+        string gestion = G ; 
+        string medios = M ;
+        string humanidades = H ;
         
         if ((nombrealumno.Length ==0 ))
             Debug.Log("Error, no ingresaste tu nombre");
