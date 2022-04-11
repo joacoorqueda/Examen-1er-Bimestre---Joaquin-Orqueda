@@ -20,14 +20,14 @@ using UnityEngine;
 
 public class Ej1 : MonoBehaviour
 {
-    public string nombrealumno;
+    public string nombreAlumno;
     public int año;
     public string orientacion;
     // Start is called before the first frame update
     void Start()
     {
         
-        if ((nombrealumno.Length ==0 ))
+        if ((nombreAlumno.Length ==0 ))
             Debug.Log("Error, no ingresaste tu nombre");
 
         else if (año != 5 && año != 4 && año != 3 && año != 2 && año != 1)
@@ -40,7 +40,7 @@ public class Ej1 : MonoBehaviour
             Debug.Log("Error, aun no estas en el ciclo basico");
 
         else
-                Debug.Log("Muchas gracias " + nombrealumno + "!");
+                Debug.Log("Muchas gracias " + nombreAlumno + "!");
     }
 
     // Update is called once per frame
