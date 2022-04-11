@@ -35,17 +35,16 @@ public class Ej1 : MonoBehaviour
         if ((nombrealumno.Length ==0 ))
             Debug.Log("Error, no ingresaste tu nombre");
 
-        if (año > 5 && año < 1)
+        else if (año > 5 && año < 1)
             Debug.Log("Error, el año que ingresaste no es valido");
 
-        if (orientacion != tic && orientacion != diseño && orientacion != gestion && orientacion != medios && orientacion != humanidades)
+        else if (orientacion != tic && orientacion != diseño && orientacion != gestion && orientacion != medios && orientacion != humanidades)
             Debug.Log("Solo se puede ingresar T, D, G, M, H");
 
-        if (año > 5 && año < 3)
+        else if (año > 5 && año < 3)
             Debug.Log("Aun no estas en el ciclo basico");
-            
 
-            if ()
+        else
                 Debug.Log("Muchas gracias " + nombrealumno);
     }
 
