@@ -31,16 +31,15 @@ public class Ej1 : MonoBehaviour
         string gestion = G;
         string medios = M;
         string humanidades = H;
-        string orientaciones = tic, diseño, gest ; 
-
-        orientacion = T ;
+        
         if ((nombrealumno.Length ==0 ))
             Debug.Log("Error, no ingresaste tu nombre");
 
         else if (año > 5 && año < 1)
             Debug.Log("Error, el año que ingresaste no es valido");
 
-        if (orientacion != tic && orientacion != diseño && orientacion != gestion && orientacion)
+        if (orientacion != tic && orientacion != diseño && orientacion != gestion && orientacion != medios && orientacion != humanidades)
+            Debug.Log("Solo se puede ingresar T, D, G, M, H");
             
 
             if ()
